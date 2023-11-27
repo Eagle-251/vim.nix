@@ -13,5 +13,5 @@
     trouble.enable = true;
     treesitter.enable = true;
     which-key.enable = true;
-    };
+  };
 }
