@@ -1,7 +1,11 @@
 { config, pkgs, ...}:
 
 {
-  imports = [./lsp.nix];
+  imports = 
+  [
+    ./lsp.nix
+    ./completion.nix
+  ];
   plugins = {
     nvim-tree.enable = true;
     telescope.enable = true;
