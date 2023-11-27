@@ -14,17 +14,17 @@
     }
     {
       event = [ "BufLeave" "BufNewFile"];
-    	pattern = ["*/playbooks/*.yml"];
+    	pattern = [ "*/playbooks/*.yml" ];
     	command = "set filetype=yaml.ansible";
     }
     {
       event = [ "BufLeave" "BufNewFile"];
-	    pattern = ["*/roles/*.yml"];
+	    pattern = [ "*/roles/*.yml" ];
 	    command = "set filetype=yaml.ansible";
     }
     {
       event = [ "BufLeave" "BufNewFile"];
-	    pattern = ["*/inventory/*.yml"];
+	    pattern = [ "*/inventory/*.yml" ];
 	    command = "set filetype=yaml.ansible";
     }
   ];
