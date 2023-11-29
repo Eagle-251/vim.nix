@@ -13,18 +13,23 @@
       command = "if &nu | set nornu | endif";
     }
     {
-      event = [ "BufEnter" "BufLeave" "BufNewFile"];
+      event = [ "BufRead" "BufNewFile"];
     	pattern = [ "*/playbooks/*.yml" ];
     	command = "set filetype=yaml.ansible";
     }
     {
-      event = [ "BufEnter" "BufLeave" "BufNewFile"];
+      event = [ "BufRead" "BufNewFile"];
 	    pattern = [ "*/roles/*.yml" ];
 	    command = "set filetype=yaml.ansible";
     }
     {
-      event = [ "BufEnter" "BufLeave" "BufNewFile"];
+      event = [ "BufRead" "BufNewFile"];
 	    pattern = [ "*/inventory/*.yml" ];
+	    command = "set filetype=yaml.ansible";
+    }
+    {
+      event = [ "BufRead" "BufNewFile"];
+	    pattern = [ "hosts" ];
 	    command = "set filetype=yaml.ansible";
     }
   ];
