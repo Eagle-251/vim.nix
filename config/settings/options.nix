@@ -11,6 +11,8 @@
       fixeol = false;
       number = true;
       relativenumber = true;
+      undodir = "~/.vim/undodir";
+      undofile = true;
     };
     globals = {
       mapleader = " ";

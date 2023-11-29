@@ -14,6 +14,11 @@
     }
     {
       event = [ "BufRead" "BufNewFile"];
+    	pattern = [ "playbook*.yml" ];
+    	command = "set filetype=yaml.ansible";
+    }
+    {
+      event = [ "BufRead" "BufNewFile"];
     	pattern = [ "*/playbooks/*.yml" ];
     	command = "set filetype=yaml.ansible";
     }

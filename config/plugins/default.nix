@@ -22,5 +22,6 @@
     surround.enable = true;
     commentary.enable = true;
     notify.enable = true;
+    persistence.enable = true;
   };
 }
