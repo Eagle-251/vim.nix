@@ -17,5 +17,10 @@
       enable = true;
       currentLineBlame = true;
     };
+    noice.enable = true;
+    lualine.enable = true;
+    surround.enable = true;
+    commentary.enable = true;
+    notify.enable = true;
   };
 }

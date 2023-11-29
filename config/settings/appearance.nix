@@ -1,5 +1,8 @@
 { config, pkgs, ... }:
 
 {
-  colorschemes.gruvbox.enable = true;
+  colorschemes = {
+    gruvbox.enable = false;
+    catppuccin.enable = true;
+  };
 }
