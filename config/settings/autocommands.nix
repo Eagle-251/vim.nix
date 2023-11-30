@@ -32,10 +32,5 @@
 	    pattern = [ "*/inventory/*.yml" ];
 	    command = "set filetype=yaml.ansible";
     }
-    {
-      event = [ "BufRead" "BufNewFile"];
-	    pattern = [ "hosts" ];
-	    command = "set filetype=yaml.ansible";
-    }
   ];
 }
