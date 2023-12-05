@@ -26,5 +26,6 @@
     notify.enable = true;
     persistence.enable = true;
     project-nvim.enable = true;
+    autopairs.enable = true;
   };
 }
