@@ -20,9 +20,11 @@
     };
     noice.enable = true;
     lualine.enable = true;
+    luasnip.enable = true;
     surround.enable = true;
     commentary.enable = true;
     notify.enable = true;
     persistence.enable = true;
+    project-nvim.enable = true;
   };
 }
