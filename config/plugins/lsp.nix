@@ -25,6 +25,7 @@
           modes = ["i" "s"];
         };
       };
+      snippet.expand = "luasnip";
     };
     lsp = { 
       enable = true;
