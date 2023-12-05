@@ -7,7 +7,8 @@
     ./completion.nix
   ];
   plugins = {
-    nvim-tree.enable = true;
+    #nvim-tree.enable = true;
+    chadtree.enable = true;
     telescope.enable = true;
     trouble.enable = true;
     treesitter.enable = true;

@@ -80,11 +80,11 @@
      key = "<leader>x";
      action = "<cmd>TroubleToggle<CR>";
    }
-   # NvimTree
+   # Chadtree
    {
      mode = "n";
      key = "<leader>e";
-     action = "<cmd>NvimTreeToggle<CR>";
+     action = "<cmd>CHADopen<CR>";
    }
   ];
 }
