@@ -114,7 +114,7 @@
    }
    {
      mode = "n";
-     key = "<leader>fs";
+     key = "<leader>fls";
      action = "<cmd>Telescope lsp_dynamic_workspace_symbols<CR>";
    }
    # Trouble
