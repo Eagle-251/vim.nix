@@ -133,7 +133,7 @@
    {
      mode = "n";
      key = "<leader>tv";
-     action = "<cmd>ToggleTerm size=50 direction=veritcal<CR>";
+     action = "<cmd>ToggleTerm size=50 direction=vertical<CR>";
    }
    {
      mode = "n";
