@@ -27,5 +27,6 @@
     persistence.enable = true;
     project-nvim.enable = true;
     nvim-autopairs.enable = true;
+    toggleterm.enable = true;
   };
 }

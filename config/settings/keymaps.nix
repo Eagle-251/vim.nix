@@ -129,5 +129,16 @@
      key = "<leader>e";
      action = "<cmd>CHADopen<CR>";
    }
+   ## Toggleterm
+   {
+     mode = "n";
+     key = "<leader>tv";
+     action = "<cmd>Toggleterm size=50 direction=veritcal<CR>";
+   }
+   {
+     mode = "n";
+     key = "<leader>th";
+     action = "<cmd>Toggleterm size=20 direction=horizontal<CR>";
+   }
   ];
 }
