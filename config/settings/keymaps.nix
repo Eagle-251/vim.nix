@@ -133,12 +133,12 @@
    {
      mode = "n";
      key = "<leader>tv";
-     action = "<cmd>Toggleterm size=50 direction=veritcal<CR>";
+     action = "<cmd>ToggleTerm size=50 direction=veritcal<CR>";
    }
    {
      mode = "n";
      key = "<leader>th";
-     action = "<cmd>Toggleterm size=20 direction=horizontal<CR>";
+     action = "<cmd>ToggleTerm size=20 direction=horizontal<CR>";
    }
   ];
 }
