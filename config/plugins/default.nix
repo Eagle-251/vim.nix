@@ -28,5 +28,6 @@
     project-nvim.enable = true;
     nvim-autopairs.enable = true;
     codeium-vim.enable = false;
+    toggleterm.enable = true;
   };
 }
