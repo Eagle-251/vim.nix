@@ -29,5 +29,6 @@
     nvim-autopairs.enable = true;
     codeium-vim.enable = false;
     toggleterm.enable = true;
+    ollama.enable = true;
   };
 }
