@@ -30,5 +30,6 @@
     codeium-vim.enable = false;
     toggleterm.enable = true;
     ollama.enable = true;
+    leap.enable = true;
   };
 }
