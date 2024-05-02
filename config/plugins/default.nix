@@ -5,9 +5,11 @@
   [
     ./lsp.nix
     ./completion.nix
+    ./neogit.nix
   ];
   plugins = {
     #nvim-tree.enable = true;
+    diffview.enable = true;
     chadtree.enable = true;
     telescope.enable = true;
     trouble.enable = true;
@@ -16,7 +18,7 @@
     gitgutter.enable = true;
     gitsigns = {
       enable = true;
-      currentLineBlame = true;
+      settings.current_line_blame = true;
     };
     noice.enable = true;
     lualine.enable = true;
@@ -31,5 +33,6 @@
     toggleterm.enable = true;
     ollama.enable = true;
     leap.enable = true;
+    neogit.enable = true;
   };
 }

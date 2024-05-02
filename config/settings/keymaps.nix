@@ -59,27 +59,32 @@
      key = "<leader>fr";
      action = "<cmd>Telescope oldfiles<CR>";
    }
-  ## Git Pickers https://github.com/nvim-telescope/telescope.nvim#git-pickers  
    {
      mode = "n";
-     key = "<leader>fgb";
-     action = "<cmd>Telescope git_branches<CR>";
+     key = "<leader>g";
+     action = "<cmd>Neogit<CR>";
    }
-   {
-     mode = "n";
-     key = "<leader>fgf";
-     action = "<cmd>Telescope git_files<CR>";
-   }
-   {
-     mode = "n";
-     key = "<leader>fgc";
-     action = "<cmd>Telescope git_commits<CR>";
-   }
-   {
-     mode = "n";
-     key = "<leader>fgbc";
-     action = "<cmd>Telescope git_bcommits<CR>";
-   }
+ ## Git Pickers https://github.com/nvim-telescope/telescope.nvim#git-pickers  
+ #  {
+ #    mode = "n";
+ #    key = "<leader>fgb";
+ #    action = "<cmd>Telescope git_branches<CR>";
+ #  }
+ #  {
+ #    mode = "n";
+ #    key = "<leader>fgf";
+ #    action = "<cmd>Telescope git_files<CR>";
+ #  }
+ #  {
+ #    mode = "n";
+ #    key = "<leader>fgc";
+ #    action = "<cmd>Telescope git_commits<CR>";
+ #  }
+ #  {
+ #    mode = "n";
+ #    key = "<leader>fgbc";
+ #    action = "<cmd>Telescope git_bcommits<CR>";
+ #  }
    # TODO Add keymap for builtin.git_bcommits_range
    {
      mode = "n";
