@@ -1,7 +1,12 @@
-{ config, pkgs, ... }:
+{ ... }:
 
 {
   autoCmd = [
+    {
+      event = [ "VimEnter" ];
+      pattern = [ "*" ];
+      command = "CHADopen";
+    }
     {
       event = [ "BufEnter" "FocusGained" "InsertLeave" "WinEnter" ];
       pattern = [ "*" ];
