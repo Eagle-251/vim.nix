@@ -5,7 +5,7 @@
     {
       event = [ "VimEnter" ];
       pattern = [ "*" ];
-      command = "CHADopen";
+      command = "CHADopen --nofocus";
     }
     {
       event = [ "BufEnter" "FocusGained" "InsertLeave" "WinEnter" ];
