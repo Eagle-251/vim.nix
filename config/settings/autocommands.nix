@@ -2,11 +2,11 @@
 
 {
   autoCmd = [
-    {
-      event = [ "VimEnter" ];
-      pattern = [ "*" ];
-      command = "CHADopen --nofocus";
-    }
+   # {
+   #   event = [ "VimEnter" ];
+   #   pattern = [ "*" ];
+   #   command = "CHADopen --nofocus";
+   # }
     {
       event = [ "BufEnter" "FocusGained" "InsertLeave" "WinEnter" ];
       pattern = [ "*" ];
