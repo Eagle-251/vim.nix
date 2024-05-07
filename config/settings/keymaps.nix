@@ -145,5 +145,10 @@
      key = "<leader>th";
      action = "<cmd>ToggleTerm size=20 direction=horizontal<CR>";
    }
+   {
+     mode = "n";
+     key = "<C-\\>";
+     action = "<cmd>ToggleTerm direction=float<CR>";
+   }
   ];
 }
