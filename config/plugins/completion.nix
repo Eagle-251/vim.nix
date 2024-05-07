@@ -6,6 +6,14 @@
       enable = true;
       autoEnableSources = true;
       settings = {
+        snippet.expand = ''
+          function(args)
+            vim.fn["vsnip#anonymous"](args.body)
+            require('luasnip').lsp_expand(args.body)
+            require('snippy').expand_snippet(args.body)
+            vim.fn["UltiSnips#Anon"](args.body)
+          end
+        '';
         sources = [
           {name = "path";}
           {name = "nvim_lsp";}

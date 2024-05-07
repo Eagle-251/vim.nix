@@ -11,7 +11,7 @@
       fixeol = false;
       number = true;
       relativenumber = true;
-      undodir = "$HOME/.vim/undodir";
+      undodir = "/home/ewan/.vim/undodir";
       undofile = true;
     };
     globals = {
