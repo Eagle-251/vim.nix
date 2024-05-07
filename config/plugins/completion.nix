@@ -19,22 +19,10 @@
           "<C-Space>" = "cmp.mapping.complete()";
           "<C-e>" = "cmp.mapping.abort()";
           "<CR>" = "cmp.mapping.confirm({ select = true })";
-          "<Tab>" = {
-            action = "cmp.mapping.select_next_item()";
-            modes = ["i" "s"];
-          };
-          "<S-Tab>" = {
-            action = "cmp.mapping.select_prev_item()";
-            modes = ["i" "s"];
+          "<Tab>" = "cmp.mapping(cmp.mapping.select_next_item(),{'i','s'})";
+          "<S-Tab>" = "cmp.mapping(cmp.mapping.select_prev_item(),{'i','s'})";
           };
         };
       };
     };
-   # cmp-rg.enable = true;
-   # cmp-path.enable = true;
-   # cmp-nvim-lsp.enable = true;
-   # cmp_luasnip.enable = true;
-   # cmp-buffer.enable = true;
-   # cmp-treesitter.enable = true;
-  };
 }
