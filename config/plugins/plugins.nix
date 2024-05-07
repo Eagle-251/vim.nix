@@ -2,7 +2,6 @@
 
 {
   plugins = {
-    #nvim-tree.enable = true;
     diffview.enable = true;
     chadtree.enable = true;
     telescope.enable = true;
@@ -24,7 +23,6 @@
     project-nvim.enable = true;
     nvim-autopairs.enable = true;
     codeium-vim.enable = false;
-#    toggleterm.enable = true;
     ollama.enable = true;
     leap.enable = true;
     neogit.enable = true;

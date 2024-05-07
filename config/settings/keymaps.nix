@@ -104,6 +104,11 @@
    ## TODO Add LSP Pickers https://github.com/nvim-telescope/telescope.nvim#neovim-lsp-pickers
    {
      mode = "n";
+     key = "<leader>lo";
+     action = "<cmd>Lspsaga outline<CR>";
+   }
+   {
+     mode = "n";
      key = "<leader>fw";
      action = "<cmd>Telescope live_grep<CR>";
    }

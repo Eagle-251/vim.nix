@@ -1,5 +1,6 @@
 {
   plugins = {
+    lspsaga.enable = true;
     lspkind.enable = true;
    # cmp = {
    #   enable = true;
@@ -30,6 +31,29 @@
    # };
     lsp = { 
       enable = true;
+#      keymaps.extra = [
+#        {
+#          action = "<CMD>LspStop<Enter>";
+#          key = "<leader>lx";
+#        }
+#        {
+#          action = "<CMD>LspStart<Enter>";
+#          key = "<leader>ls";
+#        }
+#        {
+#          action = "<CMD>LspRestart<Enter>";
+#          key = "<leader>lr";
+#        }
+#        {
+#          action = "require('telescope.builtin').lsp_definitions()";
+#          key = "gd";
+#          lua = true;
+#        }
+#        {
+#          action = "<CMD>Lspsaga hover_doc<Enter>";
+#          key = "K";
+#        }
+#      ];
       servers = {
         bashls.enable = true;
         yamlls.enable = true;
