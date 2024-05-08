@@ -2,25 +2,29 @@
 
 {
   plugins = {
+    lspkind = {
+      enable = true;
+      cmp = {
+        enable = true;
+        menu = {
+          nvim_lsp = "[LSP]";
+          nvim_lua = "[api]";
+          path = "[path]";
+          luasnip = "[snip]";
+          buffer = "[buffer]";
+        };
+      };
+    };
     cmp = {
       enable = true;
-      autoEnableSources = true;
       settings = {
-        snippet.expand = ''
-          function(args)
-            vim.fn["vsnip#anonymous"](args.body)
-            require('luasnip').lsp_expand(args.body)
-            require('snippy').expand_snippet(args.body)
-            vim.fn["UltiSnips#Anon"](args.body)
-          end
-        '';
+        snippet.expand = "function(args) require('luasnip').lsp_expand(args.body) end";
         sources = [
           {name = "path";}
           {name = "nvim_lsp";}
           {name = "vsnip";}
           {name = "luasnip";}
           {name = "buffer";}
-          {name = "treesitter";}
         ];
         mapping = {
           "<C-d>" = "cmp.mapping.scroll_docs(-4)";
