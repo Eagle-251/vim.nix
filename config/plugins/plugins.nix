@@ -26,5 +26,6 @@
     ollama.enable = true;
     leap.enable = true;
     neogit.enable = true;
+    oil.enable = true;
   };
 }
