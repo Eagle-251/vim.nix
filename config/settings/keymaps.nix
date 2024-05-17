@@ -10,6 +10,16 @@
    # Window Movement
    {
      mode = "n";
+     key = "<C-tab>";
+     action = "<cmd>tabnext<CR>";
+   }
+   {
+     mode = "n";
+     key = "<C-S-tab>";
+     action = "<cmd>tabprevious<CR>";
+   }
+   {
+     mode = "n";
      key = "<C-h>";
      action = "<C-w>h";
    }
