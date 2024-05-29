@@ -12,7 +12,7 @@
      mode = "n";
      key = "<leader>y";
      action = ''
-        <cmd>lua require("yazi").yazi()<CR>
+        <cmd>lua require("yazi").yazi(nil, vim.fn.getcwd())<CR>
      '';
    }
    # Window Movement
