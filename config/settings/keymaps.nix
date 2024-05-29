@@ -10,7 +10,14 @@
    # Yazi keymaps
    {
      mode = "n";
-     key = "<leader>y";
+     key = "<leader>yo";
+     action = ''
+        <cmd>lua require("yazi").yazi()<CR>
+     '';
+   }
+   {
+     mode = "n";
+     key = "<leader>yc";
      action = ''
         <cmd>lua require("yazi").yazi(nil, vim.fn.getcwd())<CR>
      '';
