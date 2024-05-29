@@ -7,15 +7,23 @@
      key = "<leader>h";
      action = "<cmd>noh<CR>";
    }
+   # Yazi keymaps
+   {
+     mode = "n";
+     key = "<leader>y";
+     action = ''
+        <cmd>lua require("yazi").yazi()<CR>
+     '';
+   }
    # Window Movement
    {
      mode = "n";
-     key = "<C-tab>";
+     key = "<A-tab>";
      action = "<cmd>tabnext<CR>";
    }
    {
      mode = "n";
-     key = "<C-S-tab>";
+     key = "<A-S-tab>";
      action = "<cmd>tabprevious<CR>";
    }
    {

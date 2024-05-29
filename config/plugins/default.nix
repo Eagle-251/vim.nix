@@ -8,5 +8,6 @@
     ./neogit.nix
     ./plugins.nix
     ./alpha.nix
+    ./yazi.nix
   ];
 }
