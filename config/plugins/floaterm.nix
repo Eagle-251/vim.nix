@@ -1,0 +1,7 @@
+{ ... }:
+
+{
+  plugins.floaterm = {
+    enable = true;
+  };
+}

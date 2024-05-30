@@ -176,9 +176,9 @@
      action = "<cmd>ToggleTerm size=20 direction=horizontal<CR>";
    }
    {
-     mode = "n";
+     mode = [ "n" "t" ];
      key = "<C-\\>";
-     action = "<cmd>ToggleTerm direction=float<CR>";
+     action = "<cmd>FloatermToggle<CR>";
    }
   ];
 }

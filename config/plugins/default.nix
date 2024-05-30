@@ -9,5 +9,7 @@
     ./plugins.nix
     ./alpha.nix
     ./yazi.nix
+    ./gitlab-nvim.nix
+    ./floaterm.nix
   ];
 }
