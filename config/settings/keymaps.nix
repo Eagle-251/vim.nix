@@ -86,8 +86,13 @@
    }
    {
      mode = "n";
-     key = "<leader>g";
-     action = "<cmd>Neogit<CR>";
+     key = "<leader>gg";
+     action = "<cmd>LazyGit<CR>";
+   }
+   {
+     mode = "n";
+     key = "<leader>gf";
+     action = "<cmd>LazyGitCurrentFile<CR>";
    }
  ## Git Pickers https://github.com/nvim-telescope/telescope.nvim#git-pickers  
  #  {
