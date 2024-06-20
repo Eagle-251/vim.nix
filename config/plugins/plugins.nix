@@ -17,7 +17,11 @@
     luasnip.enable = true;
     surround.enable = true;
     commentary.enable = true;
-    notify.enable = true;
+    notify = { 
+      enable = true;
+      timeout = 1000;
+      topDown = false;
+    };    
     persistence.enable = true;
     project-nvim.enable = true;
     nvim-autopairs.enable = true;
