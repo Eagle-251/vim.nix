@@ -16,6 +16,7 @@
     };
     lsp = { 
       enable = true;
+      inlayHints = true;
       keymaps = {
         silent = true;
         diagnostic = {
