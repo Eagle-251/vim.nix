@@ -6,15 +6,11 @@
     };
     efmls-configs.enable = true;
     lspsaga.enable = true;
-    none-ls = { 
-      enable = true; 
-      sources = {
-        diagnostics = {
-          ansiblelint.enable = true;
-        };
-      };
+    none-ls = {
+      enable = true;
+      sources = { diagnostics = { ansiblelint.enable = true; }; };
     };
-    lsp = { 
+    lsp = {
       enable = true;
       inlayHints = true;
       keymaps = {
@@ -37,24 +33,23 @@
       servers = {
         bashls.enable = true;
         yamlls.enable = true;
-        ansiblels = { 
-          enable = true; 
+        ansiblels = {
+          enable = true;
           autostart = false;
         };
         nixd.enable = true;
-        efm = {
-          enable = true;
-          extraOptions.init_options = {
-            documentFormatting = true;
-            documentRangeFormatting = true;
-            hover = true;
-            documentSymbol = true;
-            codeAction = true;
-            completion = true;
-          };
-        };
+         efm = {
+           enable = true;
+           extraOptions.init_options = {
+             documentFormatting = true;
+             documentRangeFormatting = true;
+             hover = true;
+             documentSymbol = true;
+             codeAction = true;
+             completion = true;
+           };
+         };
       };
     };
   };
 }
-
