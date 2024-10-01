@@ -3,6 +3,7 @@
 {
   imports = 
   [
+    ./noice.nix
     ./lsp.nix
     ./completion.nix
     ./neogit.nix

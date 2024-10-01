@@ -12,7 +12,7 @@
       enable = true;
       settings.current_line_blame = true;
     };
-    noice.enable = true;
+    # noice.enable = true;
     lualine.enable = true;
     luasnip.enable = true;
     surround.enable = true;
@@ -23,13 +23,13 @@
       topDown = false;
     };    
     persistence.enable = true;
-    project-nvim.enable = true;
+    project-nvim.enable = false;
     nvim-autopairs.enable = true;
     codeium-vim.enable = false;
-    ollama.enable = true;
+    ollama.enable = false;
     leap.enable = true;
     neogit.enable = true;
-    oil.enable = true;
+    oil.enable = false;
     lazygit.enable = true;
   };
 }
