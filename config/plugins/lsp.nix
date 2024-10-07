@@ -12,7 +12,7 @@
     };
     lsp = {
       enable = true;
-      inlayHints = true;
+      inlayHints = false;
       keymaps = {
         silent = true;
         diagnostic = {
@@ -38,17 +38,18 @@
           autostart = false;
         };
         nixd.enable = true;
-         efm = {
-           enable = true;
-           extraOptions.init_options = {
-             documentFormatting = true;
-             documentRangeFormatting = true;
-             hover = true;
-             documentSymbol = true;
-             codeAction = true;
-             completion = true;
-           };
-         };
+        nil-ls.enable = true;
+        efm = {
+          enable = true;
+          extraOptions.init_options = {
+            documentFormatting = true;
+            documentRangeFormatting = true;
+            hover = true;
+            documentSymbol = true;
+            codeAction = true;
+            completion = true;
+          };
+        };
       };
     };
   };
