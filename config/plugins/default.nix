@@ -11,5 +11,6 @@
     ./alpha.nix
     ./yazi.nix
     ./floaterm.nix
+    ./git-worktree.nix
   ];
 }

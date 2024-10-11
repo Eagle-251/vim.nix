@@ -15,6 +15,7 @@
         };
       };
     };
+    cmp-nvim-lsp.enable = true;
     cmp = {
       enable = true;
       settings = {
@@ -25,6 +26,7 @@
           {name = "vsnip";}
           {name = "luasnip";}
           {name = "buffer";}
+          {name = "treesitter";}
         ];
         mapping = {
           "<C-d>" = "cmp.mapping.scroll_docs(-4)";

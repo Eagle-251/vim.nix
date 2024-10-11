@@ -2,7 +2,7 @@
   plugins = {
     lsp-format = {
       enable = true;
-      lspServersToEnable = ["efm"];
+              lspServersToEnable = ["efm" "nil-ls"];
     };
     efmls-configs.enable = true;
     lspsaga.enable = true;
@@ -12,7 +12,7 @@
     };
     lsp = {
       enable = true;
-      inlayHints = false;
+      inlayHints = true;
       keymaps = {
         silent = true;
         diagnostic = {
@@ -35,7 +35,7 @@
         yamlls.enable = true;
         ansiblels = {
           enable = true;
-          autostart = false;
+          autostart = true;
         };
         nixd.enable = true;
         nil-ls.enable = true;
