@@ -38,7 +38,7 @@
           autostart = true;
         };
         nixd.enable = true;
-        nil-ls.enable = true;
+        nil_ls.enable = true;
         efm = {
           enable = true;
           extraOptions.init_options = {

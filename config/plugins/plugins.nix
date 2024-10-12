@@ -2,6 +2,7 @@
 
 {
   plugins = {
+    web-devicons.enable = true;
     diffview.enable = true;
     telescope.enable = true;
     trouble.enable = true;
@@ -15,7 +16,7 @@
     # noice.enable = true;
     lualine.enable = true;
     luasnip.enable = true;
-    surround.enable = true;
+    vim-surround.enable = true;
     commentary.enable = true;
     notify = { 
       enable = true;
@@ -29,7 +30,7 @@
     ollama.enable = false;
     leap.enable = true;
     neogit.enable = true;
-    oil.enable = false;
+    oil.enable = true;
     lazygit.enable = true;
   };
 }

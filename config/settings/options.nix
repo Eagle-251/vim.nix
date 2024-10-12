@@ -2,7 +2,7 @@
 
 {
   config = { 
-    options = {
+    opts = {
       expandtab = true;
       shiftwidth = 2;
       tabstop = 2;
