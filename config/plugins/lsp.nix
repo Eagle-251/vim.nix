@@ -2,7 +2,7 @@
   plugins = {
     lsp-format = {
       enable = true;
-              lspServersToEnable = ["efm" "nil-ls"];
+              lspServersToEnable = ["efm" "nil_ls"];
     };
     efmls-configs.enable = true;
     lspsaga.enable = true;
