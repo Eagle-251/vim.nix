@@ -2,6 +2,7 @@
 
 {
   plugins = {
+    rustaceanvim.enable = true;
     web-devicons.enable = true;
     diffview.enable = true;
     telescope.enable = true;
