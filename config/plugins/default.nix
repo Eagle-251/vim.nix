@@ -12,5 +12,6 @@
     ./yazi.nix
     ./floaterm.nix
     ./git-worktree.nix
+    ./avante.nix
   ];
 }
