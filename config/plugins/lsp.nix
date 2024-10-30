@@ -32,6 +32,8 @@
       };
       servers = {
         bashls.enable = true;
+        gopls.enable = true;
+        golangci_lint_ls.enable = true;
         yamlls.enable = true;
         ansiblels = {
           enable = true;
