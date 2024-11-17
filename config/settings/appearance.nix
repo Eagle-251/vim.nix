@@ -27,7 +27,7 @@
     gruvbox.enable = false;
     catppuccin = {
       enable = true;
-      settings.transparent_background = true;
+      settings.transparent_background = false;
     };
   };
 }
