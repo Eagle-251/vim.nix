@@ -194,12 +194,12 @@
    ## Toggleterm
    {
      mode = "n";
-     key = "<C-S-\>";
+     key = "<C-S-\\>";
      action = "<cmd>ToggleTerm size=95 direction=vertical<CR>";
    }
    {
      mode = "n";
-     key = "<M-C-\>";
+     key = "<M-C-\\>";
      action = "<cmd>ToggleTerm direction=horizontal<CR>";
    }
    {
