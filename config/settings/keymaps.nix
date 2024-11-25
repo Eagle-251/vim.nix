@@ -33,6 +33,7 @@
      key = "<A-S-tab>";
      action = "<cmd>tabprevious<CR>";
    }
+   ## Move Between Panes 
    {
      mode = "n";
      key = "<C-h>";
@@ -52,6 +53,27 @@
      mode = "n";
      key = "<C-l>";
      action = "<C-w>l";
+   }
+   ### Move Between Panes when in Terminal
+   {
+     mode = "t";
+     key = "<M-C-H>";
+     action = "<Cmd>wincmd h<CR>";
+   }
+   {
+     mode = "t";
+     key = "<M-C-L>";
+     action = "<Cmd>wincmd l<CR>";
+   }
+   {
+     mode = "t";
+     key = "<M-C-J>";
+     action = "<Cmd>wincmd j<CR>";
+   }
+   {
+     mode = "t";
+     key = "<M-C-K>";
+     action = "<Cmd>wincmd k<CR>";
    }
    # Telescope
    {
@@ -172,18 +194,23 @@
    ## Toggleterm
    {
      mode = "n";
-     key = "<leader>tv";
-     action = "<cmd>ToggleTerm size=50 direction=vertical<CR>";
+     key = "<C-S-\>";
+     action = "<cmd>ToggleTerm size=95 direction=vertical<CR>";
    }
    {
      mode = "n";
-     key = "<leader>th";
-     action = "<cmd>ToggleTerm size=20 direction=horizontal<CR>";
+     key = "<M-C-\>";
+     action = "<cmd>ToggleTerm direction=horizontal<CR>";
    }
    {
      mode = [ "n" "t" ];
      key = "<C-\\>";
-     action = "<cmd>FloatermToggle<CR>";
+     action = "<cmd>ToggleTerm direction=float<CR>";
    }
+   # {
+   #   mode = "n";
+   #   key = "<leader>tc";
+   #   action = "<cmd>TermExec cmd=";
+   # }
   ];
 }
