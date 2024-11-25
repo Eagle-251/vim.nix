@@ -25,13 +25,14 @@
       topDown = false;
     };    
     persistence.enable = true;
-    project-nvim.enable = false;
+    # project-nvim.enable = false;
     nvim-autopairs.enable = true;
-    codeium-vim.enable = false;
-    ollama.enable = false;
-    leap.enable = true;
+    # codeium-vim.enable = false;
+    # ollama.enable = false;
+    # leap.enable = true;
     neogit.enable = true;
-    oil.enable = true;
+    # oil.enable = true;
     lazygit.enable = true;
+    toggleterm.enable = true;
   };
 }
